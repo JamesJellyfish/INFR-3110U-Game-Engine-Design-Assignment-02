@@ -169,7 +169,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 820bd23f6041fa84eba2260ddbf09de0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CubePrefab: {fileID: 6834456350803943483, guid: 9d9fb5765020ce54ba5222879a8dcf78, type: 3}
+  CubePrefab: {fileID: 2220594390233511931, guid: d26dd8e2c6cf809418a4add6aebaef38, type: 3}
   CylinderPrefab: {fileID: 2567329662871331739, guid: f79356de84b52c749a4f95536d106729, type: 3}
 --- !u!64 &48740580
 MeshCollider:
