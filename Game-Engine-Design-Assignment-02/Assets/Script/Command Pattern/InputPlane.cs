@@ -85,18 +85,5 @@ public class InputPlane : MonoBehaviour
                 //CommandInvoker.AddCopmmand(command);
             }
         }
-/*
-        if (Input.GetMouseButtonDown(1))
-        {
-            Ray ray = maincam.ScreenPointToRay(Input.mousePosition);
-            if (Physics.Raycast(ray, out hitInfo, Mathf.Infinity))
-            {
-                Color cy = new Color(Random.Range(0.5f, 1f), Random.Range(0.5f, 1f), Random.Range(0.5f, 1f));
-
-                ICommand command = new PlaceCubeCommand(hitInfo.point, cy, CylinderPrefab);
-                CommandInvoker.AddCopmmand(command);
-            }
-        }
-*/
     }
 }
