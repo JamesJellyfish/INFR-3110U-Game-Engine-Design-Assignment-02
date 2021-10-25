@@ -21,17 +21,17 @@ public class StateDesignPattern : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Z))
+        if (Input.GetKeyDown(KeyCode.X))
         {
             currentstate = playerstate.Cube;
         }
         
-        if (Input.GetKeyDown(KeyCode.X))
+        if (Input.GetKeyDown(KeyCode.C))
         {
             currentstate = playerstate.Rectangle;
         }
         
-        if (Input.GetKeyDown(KeyCode.C))
+        if (Input.GetKeyDown(KeyCode.V))
         {
             currentstate = playerstate.LongerRectangle;
         }
