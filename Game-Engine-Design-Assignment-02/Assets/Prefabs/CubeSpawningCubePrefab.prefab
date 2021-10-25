@@ -109,9 +109,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e7f1caab0bee0849b1f2ca0ae690900, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Spawning: {fileID: 2794668649413101042}
-  parent: {fileID: 8821110241589454067}
-  SpawnAmount: 1
+  SpawningTheCubes: {fileID: 2794668649413101042}
+  initialSpawn: {fileID: 8821110241589454067}
+  amount: 0
   limit: 5
   rate: 0.5
 --- !u!1 &8597204374007953806
